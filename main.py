@@ -1,5 +1,5 @@
 import streamlit as st
-from multipage import MultiApp
+import multipage
 from apps import multigrade,passfail,Y1S2,Y1S3,Y2S1,Y2S2,Y3S1,Y3S2,Y3S3,home,Subjects # import app modules here
 
 app = MultiApp()
